@@ -1,0 +1,12 @@
+C:\Users\John\source\repos\PlataformaUniversidade\DDD.Domain.Universidade\bin\Debug\net6.0\DDD.Domain.Universidade.deps.json
+C:\Users\John\source\repos\PlataformaUniversidade\DDD.Domain.Universidade\bin\Debug\net6.0\DDD.Domain.Universidade.dll
+C:\Users\John\source\repos\PlataformaUniversidade\DDD.Domain.Universidade\bin\Debug\net6.0\DDD.Domain.Universidade.pdb
+C:\Users\John\source\repos\PlataformaUniversidade\DDD.Domain.Universidade\obj\Debug\net6.0\DDD.Domain.Universidade.csproj.AssemblyReference.cache
+C:\Users\John\source\repos\PlataformaUniversidade\DDD.Domain.Universidade\obj\Debug\net6.0\DDD.Domain.Universidade.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\John\source\repos\PlataformaUniversidade\DDD.Domain.Universidade\obj\Debug\net6.0\DDD.Domain.Universidade.AssemblyInfoInputs.cache
+C:\Users\John\source\repos\PlataformaUniversidade\DDD.Domain.Universidade\obj\Debug\net6.0\DDD.Domain.Universidade.AssemblyInfo.cs
+C:\Users\John\source\repos\PlataformaUniversidade\DDD.Domain.Universidade\obj\Debug\net6.0\DDD.Domain.Universidade.csproj.CoreCompileInputs.cache
+C:\Users\John\source\repos\PlataformaUniversidade\DDD.Domain.Universidade\obj\Debug\net6.0\DDD.Domain.Universidade.dll
+C:\Users\John\source\repos\PlataformaUniversidade\DDD.Domain.Universidade\obj\Debug\net6.0\refint\DDD.Domain.Universidade.dll
+C:\Users\John\source\repos\PlataformaUniversidade\DDD.Domain.Universidade\obj\Debug\net6.0\DDD.Domain.Universidade.pdb
+C:\Users\John\source\repos\PlataformaUniversidade\DDD.Domain.Universidade\obj\Debug\net6.0\ref\DDD.Domain.Universidade.dll

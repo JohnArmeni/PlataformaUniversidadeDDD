@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-Presentation", "1-Presentation", "{98A1C402-AC55-433E-90BE-C3BE0DCC9031}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-Application", "2-Application", "{EE4B4282-4C61-441C-8D23-AB4363A5B66B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3-Domain", "3-Domain", "{DB950392-465F-44C8-832E-439C90E30A58}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4-Infra", "4-Infra", "{7997A56E-7C52-4D16-90A6-38A0801096A7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDD.Domain.Universidade", "DDD.Domain.Universidade\DDD.Domain.Universidade.csproj", "{376371BA-04C8-45A4-90BD-5E379F876BB8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDD.Infra.MemoryDB", "DDD.Infra.MemoryDB\DDD.Infra.MemoryDB.csproj", "{DF47D6DE-7263-4E4C-84CB-D2B90402C474}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDD.Universidade.ApplicationService", "DDD.Universidade.ApplicationService\DDD.Universidade.ApplicationService.csproj", "{10FEF9A3-291A-43CE-8D08-877B5AC17E95}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{376371BA-04C8-45A4-90BD-5E379F876BB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{376371BA-04C8-45A4-90BD-5E379F876BB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{376371BA-04C8-45A4-90BD-5E379F876BB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{376371BA-04C8-45A4-90BD-5E379F876BB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF47D6DE-7263-4E4C-84CB-D2B90402C474}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF47D6DE-7263-4E4C-84CB-D2B90402C474}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF47D6DE-7263-4E4C-84CB-D2B90402C474}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF47D6DE-7263-4E4C-84CB-D2B90402C474}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10FEF9A3-291A-43CE-8D08-877B5AC17E95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10FEF9A3-291A-43CE-8D08-877B5AC17E95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10FEF9A3-291A-43CE-8D08-877B5AC17E95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10FEF9A3-291A-43CE-8D08-877B5AC17E95}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{376371BA-04C8-45A4-90BD-5E379F876BB8} = {DB950392-465F-44C8-832E-439C90E30A58}
+		{DF47D6DE-7263-4E4C-84CB-D2B90402C474} = {7997A56E-7C52-4D16-90A6-38A0801096A7}
+		{10FEF9A3-291A-43CE-8D08-877B5AC17E95} = {EE4B4282-4C61-441C-8D23-AB4363A5B66B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6BAD5BF9-C42A-4280-9D96-22B482C97017}
+	EndGlobalSection
+EndGlobal
