@@ -1,5 +1,5 @@
-﻿using DDD.Domain.Universidade.Entities;
-using DDD.Infra.MemoryDB.Interfaces;
+﻿using DDD.Domain.Universidade.SecretariaManagementContext;
+using DDD.Infra.SqlServer.Interfaces;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System.Reflection.Metadata.Ecma335;

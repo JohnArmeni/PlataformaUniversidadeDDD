@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\John\\source\\repos\\PlataformaUniversidade\\DDD.Infra.MemoryDB\\DDD.Infra.MemoryDB.csproj": {}
+    "C:\\Users\\Aula\\source\\repos\\PlataformaUniversidadeDDD-main\\DDD.Infra.MemoryDB\\DDD.Infra.MemoryDB.csproj": {}
   },
   "projects": {
-    "C:\\Users\\John\\source\\repos\\PlataformaUniversidade\\DDD.Domain.Universidade\\DDD.Domain.Universidade.csproj": {
+    "C:\\Users\\Aula\\source\\repos\\PlataformaUniversidadeDDD-main\\DDD.Domain.Universidade\\DDD.Domain.Universidade.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\John\\source\\repos\\PlataformaUniversidade\\DDD.Domain.Universidade\\DDD.Domain.Universidade.csproj",
+        "projectUniqueName": "C:\\Users\\Aula\\source\\repos\\PlataformaUniversidadeDDD-main\\DDD.Domain.Universidade\\DDD.Domain.Universidade.csproj",
         "projectName": "DDD.Domain.Universidade",
-        "projectPath": "C:\\Users\\John\\source\\repos\\PlataformaUniversidade\\DDD.Domain.Universidade\\DDD.Domain.Universidade.csproj",
-        "packagesPath": "C:\\Users\\John\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\John\\source\\repos\\PlataformaUniversidade\\DDD.Domain.Universidade\\obj\\",
+        "projectPath": "C:\\Users\\Aula\\source\\repos\\PlataformaUniversidadeDDD-main\\DDD.Domain.Universidade\\DDD.Domain.Universidade.csproj",
+        "packagesPath": "C:\\Users\\Aula\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Aula\\source\\repos\\PlataformaUniversidadeDDD-main\\DDD.Domain.Universidade\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\John\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Aula\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -44,6 +43,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -60,24 +65,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\John\\source\\repos\\PlataformaUniversidade\\DDD.Infra.MemoryDB\\DDD.Infra.MemoryDB.csproj": {
+    "C:\\Users\\Aula\\source\\repos\\PlataformaUniversidadeDDD-main\\DDD.Infra.MemoryDB\\DDD.Infra.MemoryDB.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\John\\source\\repos\\PlataformaUniversidade\\DDD.Infra.MemoryDB\\DDD.Infra.MemoryDB.csproj",
+        "projectUniqueName": "C:\\Users\\Aula\\source\\repos\\PlataformaUniversidadeDDD-main\\DDD.Infra.MemoryDB\\DDD.Infra.MemoryDB.csproj",
         "projectName": "DDD.Infra.MemoryDB",
-        "projectPath": "C:\\Users\\John\\source\\repos\\PlataformaUniversidade\\DDD.Infra.MemoryDB\\DDD.Infra.MemoryDB.csproj",
-        "packagesPath": "C:\\Users\\John\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\John\\source\\repos\\PlataformaUniversidade\\DDD.Infra.MemoryDB\\obj\\",
+        "projectPath": "C:\\Users\\Aula\\source\\repos\\PlataformaUniversidadeDDD-main\\DDD.Infra.MemoryDB\\DDD.Infra.MemoryDB.csproj",
+        "packagesPath": "C:\\Users\\Aula\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Aula\\source\\repos\\PlataformaUniversidadeDDD-main\\DDD.Infra.MemoryDB\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\John\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Aula\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -86,15 +91,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\John\\source\\repos\\PlataformaUniversidade\\DDD.Domain.Universidade\\DDD.Domain.Universidade.csproj": {
-                "projectPath": "C:\\Users\\John\\source\\repos\\PlataformaUniversidade\\DDD.Domain.Universidade\\DDD.Domain.Universidade.csproj"
+              "C:\\Users\\Aula\\source\\repos\\PlataformaUniversidadeDDD-main\\DDD.Domain.Universidade\\DDD.Domain.Universidade.csproj": {
+                "projectPath": "C:\\Users\\Aula\\source\\repos\\PlataformaUniversidadeDDD-main\\DDD.Domain.Universidade\\DDD.Domain.Universidade.csproj"
               }
             }
           }
@@ -112,6 +116,10 @@
             "Microsoft.EntityFrameworkCore.InMemory": {
               "target": "Package",
               "version": "[7.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.11, )"
             }
           },
           "imports": [
@@ -130,7 +138,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
         }
       }
     }

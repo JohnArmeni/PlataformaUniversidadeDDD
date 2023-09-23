@@ -1,13 +1,15 @@
-using DDD.Infra.MemoryDB;
-using DDD.Infra.MemoryDB.Interfaces;
-using DDD.Infra.MemoryDB.Repositories;
+
+using DDD.Infra.SqlServer;
+using DDD.Infra.SqlServer.Interfaces;
+using DDD.Infra.SqlServer.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-builder.Services.AddScoped<IAlunoRepository, AlunoRepository>();
-builder.Services.AddScoped<IDisciplinaRepository, DisciplinaRepository>();
-builder.Services.AddScoped<ApiContext, ApiContext>();
+builder.Services.AddScoped<IAlunoRepository, AlunoRepositorySqlServer>();
+builder.Services.AddScoped<IDisciplinaRepository, DisciplinaRepositorySqlServer>();
+builder.Services.AddScoped<IProfessorRepository, ProfessorRepositorySqlServer>();
+builder.Services.AddScoped<SqlContext, SqlContext>();
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

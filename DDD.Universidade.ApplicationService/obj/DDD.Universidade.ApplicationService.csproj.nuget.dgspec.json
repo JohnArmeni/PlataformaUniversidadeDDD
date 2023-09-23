@@ -64,14 +64,14 @@
         }
       }
     },
-    "C:\\Users\\John\\source\\repos\\PlataformaUniversidade\\DDD.Infra.MemoryDB\\DDD.Infra.MemoryDB.csproj": {
+    "C:\\Users\\John\\source\\repos\\PlataformaUniversidade\\DDD.Infra.SqlServer\\DDD.Infra.SqlServer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\John\\source\\repos\\PlataformaUniversidade\\DDD.Infra.MemoryDB\\DDD.Infra.MemoryDB.csproj",
-        "projectName": "DDD.Infra.MemoryDB",
-        "projectPath": "C:\\Users\\John\\source\\repos\\PlataformaUniversidade\\DDD.Infra.MemoryDB\\DDD.Infra.MemoryDB.csproj",
+        "projectUniqueName": "C:\\Users\\John\\source\\repos\\PlataformaUniversidade\\DDD.Infra.SqlServer\\DDD.Infra.SqlServer.csproj",
+        "projectName": "DDD.Infra.SqlServer",
+        "projectPath": "C:\\Users\\John\\source\\repos\\PlataformaUniversidade\\DDD.Infra.SqlServer\\DDD.Infra.SqlServer.csproj",
         "packagesPath": "C:\\Users\\John\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\John\\source\\repos\\PlataformaUniversidade\\DDD.Infra.MemoryDB\\obj\\",
+        "outputPath": "C:\\Users\\John\\source\\repos\\PlataformaUniversidade\\DDD.Infra.SqlServer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -109,9 +109,19 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
-            "Microsoft.EntityFrameworkCore.InMemory": {
+            "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[7.0.10, )"
+              "version": "[7.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.11, )"
             }
           },
           "imports": [
@@ -166,8 +176,8 @@
               "C:\\Users\\John\\source\\repos\\PlataformaUniversidade\\DDD.Domain.Universidade\\DDD.Domain.Universidade.csproj": {
                 "projectPath": "C:\\Users\\John\\source\\repos\\PlataformaUniversidade\\DDD.Domain.Universidade\\DDD.Domain.Universidade.csproj"
               },
-              "C:\\Users\\John\\source\\repos\\PlataformaUniversidade\\DDD.Infra.MemoryDB\\DDD.Infra.MemoryDB.csproj": {
-                "projectPath": "C:\\Users\\John\\source\\repos\\PlataformaUniversidade\\DDD.Infra.MemoryDB\\DDD.Infra.MemoryDB.csproj"
+              "C:\\Users\\John\\source\\repos\\PlataformaUniversidade\\DDD.Infra.SqlServer\\DDD.Infra.SqlServer.csproj": {
+                "projectPath": "C:\\Users\\John\\source\\repos\\PlataformaUniversidade\\DDD.Infra.SqlServer\\DDD.Infra.SqlServer.csproj"
               }
             }
           }
@@ -182,6 +192,12 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"

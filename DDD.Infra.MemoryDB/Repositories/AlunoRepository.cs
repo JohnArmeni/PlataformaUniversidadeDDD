@@ -61,19 +61,7 @@ namespace DDD.Infra.MemoryDB.Repositories
             }
         }
 
-        public void UpdateDisciplinaAluno(Aluno Id, Disciplina DisciplinaId)
-        {
-            var alunoLista = _context.Alunos.Find(Id);
-            var disciplinaLista = _context.Disciplinas.Find(DisciplinaId);
-
-            if (alunoLista is null || disciplinaLista is null)
-            {
-                throw new InvalidOperationException();
-
-            }
-            alunoLista.Disciplinas = disciplinaLista;
-            _context.SaveChanges();
-        }
+        
 
             public void DeleteAluno(Aluno aluno)
         {
