@@ -24,8 +24,7 @@ namespace DDD.Infra.SqlServer.Repositories
         {
             using (var context = new SqlContext())
             {
-                //var list = _context.Alunos.Include(x => x.Disciplinas).ToList();
-                return; //list;
+                return _context.Alunos.ToList();
             }
         }
 
@@ -59,6 +58,19 @@ namespace DDD.Infra.SqlServer.Repositories
             {
 
                 throw;
+            }
+        }
+        public void PersistirBoletim(BoletimPersistence boletimPersistence)
+        {
+            try
+            {
+                _context.Boletins.Add(boletimPersistence);
+                _context.SaveChanges();
+            }
+            catch (Exception ex)
+            {
+                //log exception
+
             }
         }
 

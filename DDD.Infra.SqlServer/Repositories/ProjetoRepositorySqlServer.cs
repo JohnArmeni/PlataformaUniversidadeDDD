@@ -36,5 +36,9 @@ namespace DDD.Infra.SqlServer.Repositories
             }
         }
 
+        public void InsertProjeto(Projeto projeto)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

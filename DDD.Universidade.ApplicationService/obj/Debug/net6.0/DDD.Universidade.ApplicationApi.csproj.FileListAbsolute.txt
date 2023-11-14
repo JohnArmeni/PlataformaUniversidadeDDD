@@ -1,0 +1,6 @@
+C:\Users\Aula\Desktop\PlataformaUniversidadeDDD-main\DDD.Universidade.ApplicationService\obj\Debug\net6.0\DDD.Universidade.ApplicationApi.csproj.AssemblyReference.cache
+C:\Users\Aula\Desktop\PlataformaUniversidadeDDD-main\DDD.Universidade.ApplicationService\obj\Debug\net6.0\DDD.Universidade.ApplicationApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aula\Desktop\PlataformaUniversidadeDDD-main\DDD.Universidade.ApplicationService\obj\Debug\net6.0\DDD.Universidade.ApplicationApi.AssemblyInfoInputs.cache
+C:\Users\Aula\Desktop\PlataformaUniversidadeDDD-main\DDD.Universidade.ApplicationService\obj\Debug\net6.0\DDD.Universidade.ApplicationApi.AssemblyInfo.cs
+C:\Users\Aula\Desktop\PlataformaUniversidadeDDD-main\DDD.Universidade.ApplicationService\obj\Debug\net6.0\DDD.Universidade.ApplicationApi.csproj.CoreCompileInputs.cache
+C:\Users\Aula\Desktop\PlataformaUniversidadeDDD-main\DDD.Universidade.ApplicationService\obj\Debug\net6.0\DDD.Universidade.ApplicationApi.MvcApplicationPartsAssemblyInfo.cache

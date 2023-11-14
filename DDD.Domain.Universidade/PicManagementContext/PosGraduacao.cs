@@ -9,7 +9,7 @@ namespace DDD.Domain.Universidade.PicManagementContext
     public class PosGraduacao
     {
         public int IdPos { get; set; }
-        public string IdPesquisador { get; set; }
-        public Projeto ProjetoId { get; set; }
+        public int IdPesquisador { get; set; }
+        public int ProjetoId { get; set; }
     }
 }

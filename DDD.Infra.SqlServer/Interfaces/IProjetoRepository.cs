@@ -11,7 +11,7 @@ namespace DDD.Infra.SqlServer.Interfaces
     {
         public Projeto GetProjetoById(int id);
 
-        public void insertProjeto(Projeto projeto);
+        public void InsertProjeto(Projeto projeto);
 
     }
 }

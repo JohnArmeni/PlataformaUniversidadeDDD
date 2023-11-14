@@ -1,0 +1,17 @@
+C:\Users\Aula\Desktop\PlataformaUniversidadeDDD-main\DDD.Domain.Universidade.Services\obj\Debug\net6.0\DDD.Domain.Universidade.Services.csproj.AssemblyReference.cache
+C:\Users\Aula\Desktop\PlataformaUniversidadeDDD-main\DDD.Domain.Universidade.Services\obj\Debug\net6.0\DDD.Domain.Universidade.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aula\Desktop\PlataformaUniversidadeDDD-main\DDD.Domain.Universidade.Services\obj\Debug\net6.0\DDD.Domain.Universidade.Services.AssemblyInfoInputs.cache
+C:\Users\Aula\Desktop\PlataformaUniversidadeDDD-main\DDD.Domain.Universidade.Services\obj\Debug\net6.0\DDD.Domain.Universidade.Services.AssemblyInfo.cs
+C:\Users\Aula\Desktop\PlataformaUniversidadeDDD-main\DDD.Domain.Universidade.Services\obj\Debug\net6.0\DDD.Domain.Universidade.Services.csproj.CoreCompileInputs.cache
+C:\Users\Aula\Desktop\PlataformaUniversidadeDDD-main\DDD.Domain.Universidade.Services\bin\Debug\net6.0\DDD.Domain.Universidade.Services.deps.json
+C:\Users\Aula\Desktop\PlataformaUniversidadeDDD-main\DDD.Domain.Universidade.Services\bin\Debug\net6.0\DDD.Domain.Universidade.Services.dll
+C:\Users\Aula\Desktop\PlataformaUniversidadeDDD-main\DDD.Domain.Universidade.Services\bin\Debug\net6.0\DDD.Domain.Universidade.Services.pdb
+C:\Users\Aula\Desktop\PlataformaUniversidadeDDD-main\DDD.Domain.Universidade.Services\bin\Debug\net6.0\DDD.Domain.Universidade.dll
+C:\Users\Aula\Desktop\PlataformaUniversidadeDDD-main\DDD.Domain.Universidade.Services\bin\Debug\net6.0\DDD.Infra.SqlServer.dll
+C:\Users\Aula\Desktop\PlataformaUniversidadeDDD-main\DDD.Domain.Universidade.Services\bin\Debug\net6.0\DDD.Infra.SqlServer.pdb
+C:\Users\Aula\Desktop\PlataformaUniversidadeDDD-main\DDD.Domain.Universidade.Services\bin\Debug\net6.0\DDD.Domain.Universidade.pdb
+C:\Users\Aula\Desktop\PlataformaUniversidadeDDD-main\DDD.Domain.Universidade.Services\obj\Debug\net6.0\DDD.Domain.Universidade.Services.csproj.CopyComplete
+C:\Users\Aula\Desktop\PlataformaUniversidadeDDD-main\DDD.Domain.Universidade.Services\obj\Debug\net6.0\DDD.Domain.Universidade.Services.dll
+C:\Users\Aula\Desktop\PlataformaUniversidadeDDD-main\DDD.Domain.Universidade.Services\obj\Debug\net6.0\refint\DDD.Domain.Universidade.Services.dll
+C:\Users\Aula\Desktop\PlataformaUniversidadeDDD-main\DDD.Domain.Universidade.Services\obj\Debug\net6.0\DDD.Domain.Universidade.Services.pdb
+C:\Users\Aula\Desktop\PlataformaUniversidadeDDD-main\DDD.Domain.Universidade.Services\obj\Debug\net6.0\ref\DDD.Domain.Universidade.Services.dll

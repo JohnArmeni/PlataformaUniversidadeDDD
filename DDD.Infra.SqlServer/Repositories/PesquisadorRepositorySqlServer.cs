@@ -35,5 +35,9 @@ namespace DDD.Infra.SqlServer.Repositories
             }
         }
 
+        public void InsertPesquisador(Pesquisador pesquisador)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

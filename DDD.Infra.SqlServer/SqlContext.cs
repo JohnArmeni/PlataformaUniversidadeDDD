@@ -16,26 +16,30 @@ namespace DDD.Infra.SqlServer
             optionsBuilder.UseSqlServer("Data Source=(localdb\\MSSQLLocalDB;Initial Catalog=UniversidadeDb");
         }
 
-        modelBuilder.Entity<Aluno>()
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            //modelBuilder.Entity<Matricula>().HasKey(m => new { m.AlunoId, m.DisciplinaId });
+            modelBuilder.Entity<Aluno>()
                 .HasMany(e => e.Disciplinas)
                 .WithMany(e => e.Alunos)
                 .UsingEntity<Matricula>();
 
 
             modelBuilder.Entity<User>().UseTpcMappingStrategy();
-        modelBuilder.Entity<Aluno>().ToTable("Aluno");
-        modelBuilder.Entity<Pesquisador>().ToTable("Pesquisador");
-        //https://learn.microsoft.com/pt-br/ef/core/modeling/inheritance
-    }
+            modelBuilder.Entity<Aluno>().ToTable("Aluno");
+            modelBuilder.Entity<Pesquisador>().ToTable("Pesquisador");
+            //https://learn.microsoft.com/pt-br/ef/core/modeling/inheritance
+        }
 
-    public DbSet<BoletimPersistence> Boletins { get; set; }
-    public DbSet<Aluno> Alunos { get; set; }
-    public DbSet<Disciplina> Disciplinas { get; set; }
-    public DbSet<Matricula> Matriculas { get; set; }
-    public DbSet<User> User { get; set; }
-    public DbSet<Pesquisador> Pesquisadores { get; set; }
-    public DbSet<Projeto> Projetos { get; set; }
-    public DbSet<PosGraduacao> PosGraduacoes { get; set; }
+        public DbSet<BoletimPersistence> Boletins { get; set; }
+        public DbSet<Aluno> Alunos { get; set; }
+        public DbSet<Disciplina> Disciplinas { get; set; }
+        public DbSet<Matricula> Matriculas { get; set; }
+        public DbSet<User> Users { get; set; }
+        public DbSet<Pesquisador> Pesquisadores { get; set; }
+        public DbSet<Projeto> Projetos { get; set; }
+        public DbSet<PosGraduacao> PosGraduacoes { get; set; }
+    }
 
 
 }

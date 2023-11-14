@@ -22,13 +22,13 @@ namespace DDD.Infra.SqlServer.Repositories
             return _context.PosGraduacoes.Find(idProjeto);
         }
 
-        public PosGraduacao InsertPosGraduacao(int ProjetoId, int idPesquisador)
+        public PosGraduacao InsertPosGraduacao(int idProjeto, int idPesquisador)
         {
 
             var posGraduacao = new PosGraduacao
             {
-                pesquisadorID = idPesquisador,
-                ProjetoId = ProjetoId
+                IdPesquisador = idPesquisador,
+                ProjetoId = idProjeto
             };
 
             try
